@@ -236,7 +236,7 @@ export default function Contact() {
       <footer className="mt-20 pt-8 border-t border-gray-200 dark:border-gray-700">
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-600 dark:text-gray-400">
-            © 2024 Xyryll Jay Taneo. Built with Next.js and Tailwind CSS.
+            © 2025 Xyryll Jay Taneo. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>
