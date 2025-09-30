@@ -1,125 +1,71 @@
-# Personal Portfolio Website
+# Xyryll Jay Taneo - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js, React, and Tailwind CSS. Perfect for showcasing your projects and skills as an undergraduate student or junior developer.
+Welcome to my personal portfolio! I'm Xyryll Jay Taneo (xy-real), an undergraduate student passionate about web development and creating innovative digital solutions. This portfolio showcases my projects, skills, and journey in technology.
 
-## 🚀 Features
+## � About Me
 
-- **Modern Design**: Clean, professional design with smooth animations
-- **Fully Responsive**: Works perfectly on desktop, tablet, and mobile devices
-- **Dark Mode Support**: Toggle between light and dark themes (coming soon)
-- **Smooth Scrolling**: Navigation with smooth scrolling between sections
-- **Interactive Components**: Animated skill bars, project cards, and contact form
-- **SEO Optimized**: Built with Next.js for optimal performance
+I'm currently pursuing my degree in Computer Science, with a focus on full-stack web development. My journey in technology started with curiosity and has evolved into a passion for creating meaningful digital experiences. I love learning new technologies and taking on challenging projects that push my skills further.
 
-## 📱 Sections
+## 🚀 Featured Projects
 
-1. **Hero Section**: Eye-catching introduction with call-to-action buttons
-2. **About Me**: Personal information and background
-3. **Projects**: Showcase of your work with links to live demos and source code
-4. **Skills**: Interactive skill bars organized by categories
-5. **Contact**: Contact form and social media links
+### CORAL System
+A comprehensive Student Activity Management System built with modern web technologies, demonstrating full-stack development capabilities with user authentication and data management.
+- **Tech Stack**: React, Node.js, MongoDB, Express.js, JWT
+- **Live Demo**: [checka-org.vercel.app](https://checka-org.vercel.app)
+- **GitHub**: [SSKiyan25/sams-dev](https://github.com/SSKiyan25/sams-dev)
 
-## 🛠️ Technologies Used
+### Twist Tac Toe
+An innovative twist on the classic Tic-Tac-Toe game with enhanced gameplay mechanics and modern UI design.
+- **Tech Stack**: JavaScript, HTML5, CSS3, Game Logic
+- **Live Demo**: [tictactoe-twist.vercel.app](https://tictactoe-twist.vercel.app/)
+- **GitHub**: [xy-real/tictactoe-twist](https://github.com/xy-real/tictactoe-twist)
 
-- **Next.js 15**: React framework for production
-- **React 19**: Modern React with hooks
-- **TypeScript**: Type-safe JavaScript
-- **Tailwind CSS**: Utility-first CSS framework
-- **CSS Animations**: Smooth transitions and hover effects
+## 💻 Technical Skills
 
-## 🎨 Customization Guide
+- **Frontend**: HTML/CSS, JavaScript, React, Tailwind CSS
+- **Backend**: Node.js, Python, Supabase, Firebase, SQL
+- **Tools**: Git/GitHub, VS Code, Figma
+- **Currently Learning**: TypeScript, Next.js, Docker, GraphQL, AWS
 
-### 1. Personal Information
+## 🛠️ Portfolio Tech Stack
 
-**Update Hero Section (`src/components/Hero.tsx`)**:
-Replace "Your Name" with your actual name and update your title/role.
+- **Next.js 15** with TypeScript
+- **React 19** with modern hooks
+- **Tailwind CSS** for styling
+- Responsive design and smooth animations
 
-**Update About Section (`src/components/About.tsx`)**:
-Update your initials in the avatar and write your personal description.
+## 📧 Get In Touch
 
-### 2. Projects
+I'm always interested in hearing about new opportunities, collaborations, or just chatting about technology!
 
-**Update Projects (`src/components/Projects.tsx`)**:
-Replace the sample projects with your actual projects, including:
-- Project titles and descriptions
-- Technologies used
-- GitHub repository links
-- Live demo links
+- **Email**: [xyrylljay@gmail.com](mailto:xyrylljay@gmail.com)
+- **LinkedIn**: [linkedin.com/in/xyryll-jay-taneo-600822269](https://www.linkedin.com/in/xyryll-jay-taneo-600822269/)
+- **GitHub**: [github.com/xy-real](https://github.com/xy-real)
 
-### 3. Skills
+## 🚀 Local Development
 
-**Update Skills (`src/components/Skills.tsx`)**:
-Adjust skill levels (0-100) based on your proficiency and add/remove skills as needed.
+Want to run this portfolio locally?
 
-### 4. Contact Information
+```bash
+# Clone the repository
+git clone https://github.com/xy-real/xy-real-portfolio.git
 
-**Update Contact (`src/components/Contact.tsx`)**:
-Replace placeholder contact information with your actual:
-- Email address
-- LinkedIn profile
-- GitHub username
+# Install dependencies
+npm install
 
-## 🚀 Getting Started
+# Start development server
+npm run dev
 
-1. **Install dependencies**:
-   ```bash
-   npm install
-   ```
-
-2. **Start development server**:
-   ```bash
-   npm run dev
-   ```
-
-3. **Open [http://localhost:3000](http://localhost:3000)** to see your portfolio
-
-4. **Customize** the content following the guide above
-
-5. **Build for production**:
-   ```bash
-   npm run build
-   ```
-
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx            # Main page component
-└── components/
-    ├── Navigation.tsx       # Navigation bar
-    ├── Hero.tsx            # Hero section
-    ├── About.tsx           # About section
-    ├── Projects.tsx        # Projects showcase
-    ├── Skills.tsx          # Skills section
-    └── Contact.tsx         # Contact section
+# Open http://localhost:3000
 ```
 
-## 🌐 Deployment
+## 🌟 What I'm Looking For
 
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to [Vercel](https://vercel.com)
-3. Deploy automatically
-
-### Netlify
-1. Build the project: `npm run build`
-2. Upload the build folder to [Netlify](https://netlify.com)
-
-## 📝 Customization Checklist
-
-- [ ] Update personal information (name, title, description)
-- [ ] Add your actual projects with descriptions and links
-- [ ] Customize skills and proficiency levels
-- [ ] Add your contact information and social media links
-- [ ] Add your photo to replace the placeholder avatar
-- [ ] Add project screenshots
-- [ ] Customize colors and styling (optional)
-- [ ] Test on mobile devices
-- [ ] Deploy to production
+- **Internship opportunities** in web development
+- **Freelance projects** to build my experience
+- **Open source collaboration** opportunities
+- **Mentoring** from experienced developers
 
 ---
 
-**Happy coding! 🚀**
+Thanks for checking out my portfolio! Feel free to explore my projects and reach out if you'd like to connect. 🚀
