@@ -73,12 +73,28 @@ export default function Projects() {
             Each project represents a learning journey and showcases different skills.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className={`max-w-6xl mx-auto ${
+            projects.length === 1 
+              ? 'flex justify-center' 
+              : projects.length === 2 
+                ? 'grid md:grid-cols-2 gap-8'
+                : 'flex flex-wrap justify-center gap-8'
+          }`}>
             {projects.map((project, index) => (
               <div
                 key={project.id}
                 className={`bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
                   isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                } ${
+                  projects.length === 1 
+                    ? 'w-full max-w-md' 
+                    : projects.length === 2 
+                      ? 'w-full'
+                      : 'w-full max-w-md md:w-[calc(50%-1rem)]'
+                } ${
+                  projects.length > 2 && index === projects.length - 1 && projects.length % 2 === 1
+                    ? 'md:w-full md:max-w-md md:mx-auto'
+                    : ''
                 }`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
