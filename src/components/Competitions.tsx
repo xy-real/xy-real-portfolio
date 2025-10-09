@@ -119,7 +119,7 @@ export default function Competitions() {
   };
 
   return (
-    <section id="competitions" className="py-20 bg-gray-50 dark:bg-gray-800">
+    <section id="competitions" className="py-20 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-6">
         <div className={`transition-all duration-1000 transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -157,7 +157,7 @@ export default function Competitions() {
               {competitions.map((competition, index) => (
                 <div
                   key={competition.id}
-                  className={`bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
+                  className={`bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
                     isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                   } ${
                     competitions.length === 1 

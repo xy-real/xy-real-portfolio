@@ -52,7 +52,7 @@ export default function Certifications() {
   }, []);
 
   return (
-    <section id="certifications" className="py-20 bg-white dark:bg-gray-900">
+    <section id="certifications" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-6">
         <div className={`transition-all duration-1000 transform ${
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -90,7 +90,7 @@ export default function Certifications() {
               {certifications.map((cert, index) => (
                 <div
                   key={cert.id}
-                  className={`bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
+                  className={`bg-white dark:bg-gray-900 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
                     isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                   } ${
                     certifications.length === 1 ? 'w-full max-w-md' : 'w-full'
