@@ -32,6 +32,17 @@ const competitions: Competition[] = [
   },
   {
     id: 2,
+    title: "CS Week Coding Competition",
+    organizer: "Computer Science Student Society",
+    award: "Sole Solver - Exclusive Solution Achievement",
+    date: "February 6, 2025",
+    description: "An intensive programming competition offering flexibility in language choice (C, C++, or Java) to accommodate different programming preferences and problem requirements. Features challenging problems crafted by previous winners, covering diverse algorithmic concepts including greedy algorithms, string manipulation, mathematical computations, and advanced data structures.",
+    technologies: ["C", "C++", "Java"],
+    image: "/csweek2025-progcomp.jpg",
+    teamSize: 1
+  },
+  {
+    id: 3,
     title: "SIKAPTala 2025 - CS & IT Skills Competition Java Category",
     organizer: "DLSUD College of Information and Computer Studies",
     date: "March 25, 2025",
@@ -41,9 +52,10 @@ const competitions: Competition[] = [
     teamSize: 1
   },
   {
-    id: 3,
+    id: 4,
     title: "Byte Forward Hackathon Visayas Leg",
     organizer: "REV21 Labs Inc. and Converge SME Solutions",
+    placement: "2nd Place",
     date: "July 24-25, 2025",
     description: "An intensive 24-hour hackathon focused on developing innovative software solutions to address real-world challenges faced by Small and Medium Enterprises (SMEs) in the Visayas region. Collaborated with a diverse team to create impactful digital solutions under tight time constraints.",
     technologies: ["HTML", "CSS", "JavaScript", "Supabase"],
