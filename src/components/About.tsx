@@ -36,14 +36,14 @@ export default function About() {
           
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div>
-              <div className="bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-2xl p-8 h-80 flex items-center justify-center">
+              <div className="bg-gradient-to-br from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 rounded-2xl p-8 h-96 flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
+                  <div className="w-64 h-64 rounded-full mx-auto mb-4 overflow-hidden border-4 border-white dark:border-gray-700 shadow-lg">
                     <Image
-                      src="/profile-xy-real.JPG"
+                      src="/profile-xy-real-3.JPG"
                       alt="XY Real Profile Picture"
-                      width={128}
-                      height={128}
+                      width={250}
+                      height={250}
                       className="w-full h-full object-cover"
                       priority
                     />
