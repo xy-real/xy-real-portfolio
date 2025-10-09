@@ -12,6 +12,7 @@ export default function Navigation() {
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
     { name: 'Skills', href: '#skills' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -21,7 +22,7 @@ export default function Navigation() {
     };
 
     const handleSectionChange = () => {
-      const sections = ['hero', 'about', 'projects', 'skills', 'contact'];
+      const sections = ['hero', 'about', 'projects', 'skills', 'certifications', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections.reverse()) {
