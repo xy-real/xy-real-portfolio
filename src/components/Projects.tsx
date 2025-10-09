@@ -18,7 +18,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "CORAL System",
-    description: "A comprehensive Student Activity Management System built with modern web technologies. This project demonstrates full-stack development capabilities with user authentication, data management, and responsive design for educational institutions.",
+    description: "A comprehensive Student Activity Management System built with modern web technologies. I collaborated with a talented team on this project, where I contributed to the backend development and helped bring the system to life for educational institutions.",
     technologies: ["React", "Next.js", "Firebase", "Tailwind CSS", "TypeScript"],
     githubUrl: "https://github.com/SSKiyan25/sams-dev",
     liveUrl: "https://checka-org.vercel.app",
