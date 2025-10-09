@@ -32,7 +32,7 @@ const competitions: Competition[] = [
   },
   {
     id: 2,
-    title: "CS Week Coding Competition",
+    title: "CS Week Coding Competition 2025",
     organizer: "Computer Science Student Society",
     award: "Sole Solver - Exclusive Solution Achievement",
     date: "February 6, 2025",
@@ -53,7 +53,7 @@ const competitions: Competition[] = [
   },
   {
     id: 4,
-    title: "Byte Forward Hackathon Visayas Leg",
+    title: "Byte Forward Hackathon 2025 Visayas Leg",
     organizer: "REV21 Labs Inc. and Converge SME Solutions",
     placement: "2nd Place",
     date: "July 24-25, 2025",
