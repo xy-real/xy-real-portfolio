@@ -34,6 +34,16 @@ const projects: Project[] = [
     liveUrl: "https://tictactoe-twist.vercel.app/",
     image: "/tictactoe-twist-project.png",
     featured: true
+  },
+  {
+    id: 3,
+    title: "Stress Level Analyzer - Fuzzy Logic Approach",
+    description: "A web-based application that utilizes fuzzy logic to assess and visualize stress levels based on user inputs. This project demonstrates my ability to integrate advanced algorithms with user-friendly interfaces.",
+    technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    githubUrl: "https://github.com/xy-real/stress-level",
+    liveUrl: "https://stress-level-nine.vercel.app/",
+    image: "/stress-level.png",
+    featured: true
   }
 ];
 
