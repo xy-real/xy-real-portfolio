@@ -75,7 +75,10 @@ export default function Competitions() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.1 }
+      { 
+        threshold: 0.1,
+        rootMargin: '50px 0px'
+      }
     );
 
     const section = document.getElementById('competitions');
@@ -83,14 +86,8 @@ export default function Competitions() {
       observer.observe(section);
     }
 
-    // Fallback for mobile browsers - show content after 2 seconds if not visible
-    const fallback = setTimeout(() => {
-      setIsVisible(true);
-    }, 2000);
-
     return () => {
       observer.disconnect();
-      clearTimeout(fallback);
     };
   }, []);
 
