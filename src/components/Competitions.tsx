@@ -75,7 +75,7 @@ export default function Competitions() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     const section = document.getElementById('competitions');
@@ -83,7 +83,15 @@ export default function Competitions() {
       observer.observe(section);
     }
 
-    return () => observer.disconnect();
+    // Fallback for mobile browsers - show content after 2 seconds if not visible
+    const fallback = setTimeout(() => {
+      setIsVisible(true);
+    }, 2000);
+
+    return () => {
+      observer.disconnect();
+      clearTimeout(fallback);
+    };
   }, []);
 
   const getPlacementColor = (placement?: string) => {
@@ -147,28 +155,12 @@ export default function Competitions() {
               </div>
             </div>
           ) : (
-            <div className={`max-w-6xl mx-auto ${
-              competitions.length === 1 
-                ? 'flex justify-center' 
-                : competitions.length === 2 
-                  ? 'grid md:grid-cols-2 gap-8'
-                  : 'flex flex-wrap justify-center gap-8'
-            }`}>
+            <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
               {competitions.map((competition, index) => (
                 <div
                   key={competition.id}
                   className={`bg-gray-50 dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
                     isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-                  } ${
-                    competitions.length === 1 
-                      ? 'w-full max-w-md' 
-                      : competitions.length === 2 
-                        ? 'w-full'
-                        : 'w-full max-w-md md:w-[calc(50%-1rem)]'
-                  } ${
-                    competitions.length > 2 && index === competitions.length - 1 && competitions.length % 2 === 1
-                      ? 'md:w-full md:max-w-md md:mx-auto'
-                      : ''
                   }`}
                   style={{ transitionDelay: `${index * 200}ms` }}
                 >

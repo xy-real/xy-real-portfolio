@@ -70,7 +70,7 @@ export default function Skills() {
           }, 500);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     const section = document.getElementById('skills');
